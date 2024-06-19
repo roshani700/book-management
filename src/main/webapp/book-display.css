@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: azure;
+	
+}
+header{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+table{
+	padding: 10px;
+	
+}
+table>tr>td{
+	text-align: center;
+}
+
